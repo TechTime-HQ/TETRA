@@ -8,12 +8,16 @@
 
 The TETRA standard is based on the end-to-end scaling of space across two domains: a two-dimensional grid (area) and a vertical axis (height).
 
-### 1. Planar Scaling (Area and Grid)
-*   **Micro and Macro Worlds (The A-Series):** The international **A4** paper format is adopted as the base unit of area. Scaling up (macro world) and down (microelectronics) follows the strict geometric principle of the **ISO 216 A-series** (with an aspect ratio of \(1 : \sqrt{2}\)).
-*   **Architectural and Furniture Space:** For interior design, furniture layout, and spatial planning, a fixed grid step of **60 × 60 cm** is applied, which seamlessly integrates into the global coordinate system.
-*   **Global Logistics:** On the corresponding macro-scale, the A-system defines the dimensions of a standard **cargo container** (a stretched geometry equivalent to an A-format sheet divided exactly in half along its long side).
+The TETRA standard is based on a strict, end-to-end metric grid that synchronizes physical components from micro-electronics up to macro-structures. To eliminate fractions and non-metric units completely, the standard introduces three core unified units of measurement:
 
-### 2. Vertical Scaling (Height)
+### 1. Unified TETRA Units
+*   **1 TU (TETRA Unit) = 20 mm** — The primary unit for vertical scaling, server racks, and storage systems.
+*   **1 BU (TETRA Bricks Unit) = 5 mm** — The primary unit for mechanical prototyping, interlocking blocks, and enclosures (\(1 \text{ TU} = 4 \text{ BU}\)).
+*   **1 CU (TETRA Circuit Unit) = 2.5 mm** — The primary unit for electronics, PCB layouts, and component pin spacing (\(1 \text{ BU} = 2 \text{ CU}\)).
+
+### 2. Planar Scaling (Area and Grid)
+*   **Micro and Macro Worlds (The A-Series):** The international **A4** paper format is adopted as the base unit of area. Scaling follows the strict geometric principle of the **ISO 216 A-series** (aspect ratio \(1 : \sqrt{2}\)).
+*   **Architectural and Furniture Space:** A fixed layout grid of **60 × 60 cm** (`120 × 120 BU` / `240 × 240 CU`) is applied for interior and spatial planning.
 To measure the height of any physical object, a dedicated unit of measurement is introduced — the **TETRA Unit (TU)**.
 *   **1 TU** = exactly `20 mm`.
 *   **Minimum Step:** For high-precision systems (microcontrollers, PCB layout, small components), a subdivision step of **0.5 TU** (`10 mm`) is allowed.
