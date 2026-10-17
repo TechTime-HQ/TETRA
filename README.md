@@ -19,20 +19,21 @@ To measure the height of any physical object, a dedicated unit of measurement is
 *   **Minimum Step:** For high-precision systems (microcontrollers, PCB layout, small components), a subdivision step of **0.5 TU** (`10 mm`) is allowed.
 
 ### 3. TETRA Cargo Logistics and Architectural Standard
-
-As a unified macro-world constant, the **TETRA Cargo** standard is established — an open specification for freight and structural building blocks. The project is completely cleaned of legacy non-metric units (feet, inches) and is subordinated to the rules of harmonic spatial composition.
+As a unified macro-world constant, the **TETRA Cargo** standard is established — an open specification for freight and structural building blocks. The project is completely cleaned of legacy non-metric units (feet, inches) and is fully optimized for international road regulations (100% legal for standard European and Russian road platforms).
 
 The master reference is the **High-Space Core** module, whose parameters perfectly bridge transportation logistics, IT infrastructure, and human-centric architecture.
 
 #### TETRA Cargo Blueprint:
-*   **Length:** exactly `13 456 mm` — defined by the **128A0** macro-format of your universal grid.
-*   **Width:** exactly `4 756 mm` — calculated as the shorter side of the 128A0 format divided exactly in half along the long axis (`9512 / 2`).
-*   **Height:** exactly `3 000 mm` — equals exactly **150 TU** (TETRA Unit).
+*   **External Length:** exactly `12 500 mm` (12.5 meters) — 625 TU.
+*   **External Width:** exactly `2 500 mm` (2.5 meters) — 125 TU.
+*   **External Height:** exactly `3 000 mm` (3.0 meters) — 150 TU.
 
 #### System Advantages of the TETRA Cargo Constant:
-1.  **Area Modularity (\(2\sqrt{2}\)):** The length-to-width ratio is approximately `2.83 : 1`. Two modules placed side-by-side along their longitudinal sides form a flawless square in the macro-grid. This eliminates any dead zones or gaps during block construction and stacking.
-2.  **Architectural Harmony (60 × 60 cm Step):** The `3 000 mm` height equals exactly 5 spatial steps of the TETRA interior grid (`5 × 600 mm`). Thanks to this, the modules serve as perfect ready-made cells for living spaces and labs — any furniture, partitions, and wall panels matching the 60 cm grid fit from floor to ceiling without adjustment.
-3.  **IT Infrastructure and Server Racks:** The **150 TU** height provides the optimal cubic capacity for seamless integration of TETRA-standard server racks, leaving perfect overhead space for backbone cable routing, ventilation, and raised floor systems.
+1.  **Flawless Area Modularity (5 : 1):** The length-to-width ratio is exactly `5 : 1`. Five modules placed side-by-side along their longitudinal sides form a perfect macro-grid square (\(12.5 \times 12.5\text{ m}\)). A single module can turn 90 degrees and interlock seamlessly against five longitudinal units, eliminating dead zones during block construction and stacking.
+2.  **Internal Spatial Layout (60 × 60 cm Grid):** With 50 mm thick exterior walls, the net internal width is exactly `2 400 mm` (perfectly fitting 4 spatial modules of 60 cm). The net internal length is exactly `12 400 mm`, allowing a dense allocation of exactly **20 living/working modules of 60 cm** and leaving an extra `400 mm` (40 cm) zone.
+3.  **Dedicated Engineering & Tech Zone:** The remaining 40 cm of internal length serves as a built-in technical compartment. This isolated area is designed for power distribution, climate-control hardware, inverters, server inputs, or air ventilation, preserving the main living/working layout.
+4.  **Electronics Integration:** The external width of 2,500 mm equals exactly `1,000 pins` of the **TETRA 2.5 mm PCB grid**, locking the macro-building and the micro-chip into a single mathematical ecosystem.
+
 
 ---
 
