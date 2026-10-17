@@ -1,3 +1,5 @@
+🌐 **Languages:** [English](README.md) | [Русский](README.ru.md)
+
 # TETRA Standard
 
 **TETRA** is a universal, open-source space scaling and layout standard developed by the **TechTime** brand. The purpose of the standard is to establish a unified, end-to-end system of geometric and physical constants applicable across all scales: from nanometer-sized silicon chips to server rack dimensions and macro-constructors.
