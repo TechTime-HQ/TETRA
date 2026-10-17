@@ -1,65 +1,64 @@
 # TETRA Standard
 
-**TETRA** — это универсальный открытый стандарт разметки и масштабирования пространства (вселенной), разрабатываемый брендом **TechTime**. Цель стандарта — создать единую, сквозную систему геометрических и физических констант, применимую на всех уровнях: от нанометровых размеров кремниевых чипов до габаритов серверных стоек и макро-конструкторов.
+**TETRA** is a universal, open-source space scaling and layout standard developed by the **TechTime** brand. The purpose of the standard is to establish a unified, end-to-end system of geometric and physical constants applicable across all scales: from nanometer-sized silicon chips to server rack dimensions and macro-constructors.
 
-## 📐 Базовая философия и Универсальная формула
+## 📐 Base Philosophy and Universal Formula
 
-Стандарт **TETRA** базируется на сквозном масштабировании пространства в двух плоскостях: двумерной (сетка площади) и вертикальной (ось высоты). 
+The TETRA standard is based on the end-to-end scaling of space across two domains: a two-dimensional grid (area) and a vertical axis (height).
 
-### 1. Плоскостное масштабирование (Площадь и сетка)
-*   **Микро- и макромир (Система A):** В качестве базового элемента площади принят международный формат **A4**. Масштабирование вверх (макромир) и вниз (микроэлектроника) происходит по строгому геометрическому принципу стандартов серии **A** (соотношение сторон \(1 : \sqrt{2}\)).
-*   **Архитектурное и мебельное пространство:** Для проектирования интерьеров, мебели и планировки помещений применяется фиксированный шаг разметки **60 × 60 см**, бесшовно интегрирующийся в общую сетку.
-*   **Глобальная логистика:** На соответствующем макро-масштабе система **A** задает габариты стандартного **морского контейнера** (вытянутая геометрия, эквивалентная листу формата A, деленному пополам вдоль его длинной стороны).
+### 1. Planar Scaling (Area and Grid)
+*   **Micro and Macro Worlds (The A-Series):** The international **A4** paper format is adopted as the base unit of area. Scaling up (macro world) and down (microelectronics) follows the strict geometric principle of the **ISO 216 A-series** (with an aspect ratio of \(1 : \sqrt{2}\)).
+*   **Architectural and Furniture Space:** For interior design, furniture layout, and spatial planning, a fixed grid step of **60 × 60 cm** is applied, which seamlessly integrates into the global coordinate system.
+*   **Global Logistics:** On the corresponding macro-scale, the A-system defines the dimensions of a standard **cargo container** (a stretched geometry equivalent to an A-format sheet divided exactly in half along its long side).
 
-### 2. Вертикальное масштабирование (Высота)
-Для измерения высоты объектов вводится базовая единица измерения — **TETRA Unit (TU)**.
-*   **1 TU** = ровно `20 мм`.
-*   **Минимальный шаг:** Для высокоточных систем (микроконтроллеры, разметка плат, мелкие детали) допускается шаг деления в **0.5 TU** (`10 мм`).
+### 2. Vertical Scaling (Height)
+To measure the height of any physical object, a dedicated unit of measurement is introduced — the **TETRA Unit (TU)**.
+*   **1 TU** = exactly `20 mm`.
+*   **Minimum Step:** For high-precision systems (microcontrollers, PCB layout, small components), a subdivision step of **0.5 TU** (`10 mm`) is allowed.
 
-### 3. Логистический и архитектурный стандарт TETRA Cargo
+### 3. TETRA Cargo Logistics and Architectural Standard
 
-В качестве единой базовой константы макро-мира утверждается стандарт **TETRA Cargo** — открытая спецификация магистральных грузовых и строительных модулей. Проект полностью очищен от неметрических единиц прошлого (футов, дюймов) и подчинен правилам гармонического сочетания пространства.
+As a unified macro-world constant, the **TETRA Cargo** standard is established — an open specification for freight and structural building blocks. The project is completely cleaned of legacy non-metric units (feet, inches) and is subordinated to the rules of harmonic spatial composition.
 
-За базовый эталон принят увеличенный объемный модуль (**High-Space Core**), параметры которого идеально связывают транспортную логистику, ИТ-инфраструктуру и архитектуру для человека.
+The master reference is the **High-Space Core** module, whose parameters perfectly bridge transportation logistics, IT infrastructure, and human-centric architecture.
 
-#### Геометрический паспорт TETRA Cargo:
-*   **Длина:** ровно `13 456 мм` — задается макро-форматом **128A0** вашей универсальной сетки.
-*   **Ширина:** ровно `4 756 мм` — рассчитывается как меньшая сторона формата 128A0, деленная ровно пополам вдоль длинной оси (`9512 / 2`).
-*   **Высота:** ровно `3 000 мм` — составляет ровно **150 TU** (TETRA Unit).
+#### TETRA Cargo Blueprint:
+*   **Length:** exactly `13 456 mm` — defined by the **128A0** macro-format of your universal grid.
+*   **Width:** exactly `4 756 mm` — calculated as the shorter side of the 128A0 format divided exactly in half along the long axis (`9512 / 2`).
+*   **Height:** exactly `3 000 mm` — equals exactly **150 TU** (TETRA Unit).
 
-#### Системные преимущества константы TETRA Cargo:
-1.  **Модульность площади (\(2\sqrt{2}\)):** Отношение длины к ширине составляет примерно `2.83 : 1`. Два модуля, поставленные бок о бок продольными сторонами, образуют в макро-сетке безупречный квадрат. Это исключает появление зазоров или «мертвых зон» при блочном строительстве и штабелировании.
-2.  **Архитектурная гармония (Шаг 60×60 см):** Высота в `3 000 мм` составляет ровно 5 пространственных шагов интерьерной разметки TETRA (`5 × 600 мм`). Благодаря этому модули служат идеальными готовыми ячейками для жилых помещений и лабораторий — любая мебель, перегородки и стеновые панели шага 60 см встают от пола до потолка без подгонки.
-3.  **ИТ-инфраструктура и Серверные стойки:** Высота в **150 TU** обеспечивает необходимый кубический объем для бесшовной интеграции серверных стоек стандарта TETRA, оставляя оптимальный запас пространства для магистральной прокладки кабельных трасс, вентиляции и систем фальшполов.
-
-
----
-
-## 🛠️ Сферы применения стандарта (Подразделы)
-
-Стандарт TETRA внедряется как сквозная константа в ключевых отраслях:
-
-*   **Silicon & ICs (Микроэлектроника):** Стандартизация габаритов кристаллов и посадочных мест чипов.
-*   **PCB Layout (Разметка плат):** Единый шаг сетки, фиксированные отступы и крепежные зоны для печатных плат.
-*   **Displays (Дисплеи):** Стандарт соотношения сторон, плотности пикселей и физических границ экранов.
-*   **Server Equipment (Серверная инфраструктура):** Оптимизация габаритов юнитовых серверных стоек и внутреннего пространства под стандарт TETRA.
-*   **Macro-Constructors (Конструкторы):** Интеграция сетки шага со строительными блоками (модулями) типа LEGO для бесшовного соединения физических корпусов и электроники.
+#### System Advantages of the TETRA Cargo Constant:
+1.  **Area Modularity (\(2\sqrt{2}\)):** The length-to-width ratio is approximately `2.83 : 1`. Two modules placed side-by-side along their longitudinal sides form a flawless square in the macro-grid. This eliminates any dead zones or gaps during block construction and stacking.
+2.  **Architectural Harmony (60 × 60 cm Step):** The `3 000 mm` height equals exactly 5 spatial steps of the TETRA interior grid (`5 × 600 mm`). Thanks to this, the modules serve as perfect ready-made cells for living spaces and labs — any furniture, partitions, and wall panels matching the 60 cm grid fit from floor to ceiling without adjustment.
+3.  **IT Infrastructure and Server Racks:** The **150 TU** height provides the optimal cubic capacity for seamless integration of TETRA-standard server racks, leaving perfect overhead space for backbone cable routing, ventilation, and raised floor systems.
 
 ---
 
-## ⚡ Первое физическое воплощение: Tetrino NANO
+## 🛠️ Implementation Specs (Sub-Projects)
 
-Проект **Tetrino NANO** является эталонным микроконтроллерным модулем (в экосистеме Arduino-совместимых плат), полностью спроектированным по канонам стандарта **TETRA**.
+The TETRA standard is implemented as an end-to-end constant across key industries:
 
-*   **Физическая ширина модуля:** ровно `18 мм`.
-*   **Шаг пинов (Pin pitch):** ровно `2.5 мм` (вместо классического шага 2.54 мм / 0.1 дюйма). 
-*   **Совместимость:** Стандартизированная разметка плат TETRA позволяет интегрировать Tetrino NANO в любые физические модули и макетные платы нового поколения.
+*   **Silicon & ICs (Microelectronics):** Standardization of die dimensions and chip footprints.
+*   **PCB Layout (Electronics Grid):** Unified grid pitch, fixed clearances, and mounting zones for printed circuit boards.
+*   **Displays:** Standards for aspect ratios, pixel density, and physical screen boundaries.
+*   **Server Equipment (Server Infrastructure):** Optimization of unit-based server rack dimensions and internal space according to the TETRA standard.
+*   **Macro-Constructors:** Integration of the grid pitch with modular building blocks (similar to LEGO-type modules) for seamless interlocking of physical enclosures and electronics.
 
 ---
 
-## 👥 Авторство и Развитие (Contribute)
+## ⚡ First Physical Implementation: Tetrino NANO
 
-*   **Основатель проекта и автор концепции:** Romanov Serge (`rummind`)
-*   **Бренд:** TechTime
+The **Tetrino NANO** project is a reference microcontroller module (within the ecosystem of Arduino-compatible boards), fully designed according to the canons of the **TETRA** standard.
 
-Проект развивается как **Open-Source**. Любые предложения по интеграции стандарта в новые сферы жизни приветствуются в разделе **Issues** и **Pull Requests**.
+*   **Physical Board Width:** exactly `18 mm`.
+*   **Pin Pitch:** exactly `2.5 mm` (instead of the traditional 2.54 mm / 0.1 inch pitch).
+*   **Compatibility:** The standardized TETRA PCB layout allows Tetrino NANO to be seamlessly integrated into any next-generation physical modules and breadboards.
+
+---
+
+## 👥 Authorship and Contribution
+
+*   **Project Founder & Concept Author:** Romanov Serge (`rummind`)
+*   **Brand:** TechTime
+
+This project is developed as **Open-Source**. Any proposals for integrating the standard into new spheres of life are welcome in the **Issues** and **Pull Requests** sections.
